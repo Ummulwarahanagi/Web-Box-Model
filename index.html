@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header{
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+        p{
+            color:white;
+        }
+        .main-container{
+            display: flex;
+            margin:0 20px;
+        }
+        .sidebar{
+            background-color: #f4f4f4;
+            width:250px;
+            padding:20px;
+            margin-right: 20px;
+            border:2px solid #ddd;
+        }
+        .sidebar h2{
+            text-align: center;
+        }
+        .main-content{
+            flex-grow: 1;
+            background-color: white;
+            padding: 20px;
+            border:2px solid #ddd;
+        }
+        .main-content p{
+            color:navy
+        }
+        footer{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>Home</p>
+        <p>Sign-in</p>
+        <p>Login</p>
+        <p>Contact</p>
+    </header>
+    <div class="main-container">
+        <aside class="sidebar">
+              <h2>Sidebar</h2>
+              <p style="color:#4CAF50">This is sidebar content.</p>
+        </aside>
+        <div class="main-content">
+            <h2>Main Content</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia iusto quaerat id laudantium excepturi dolorum! Dolores sed quis minus. Cupiditate illum dolore voluptatum excepturi obcaecati amet vel sequi nemo veniam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad officia quibusdam dignissimos sapiente amet sit, ratione, commodi, quam necessitatibus recusandae ullam porro accusamus suscipit quis! Cumque optio culpa officiis?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis deserunt similique nihil facilis qui quod, ratione sapiente fuga optio itaque perspiciatis ipsam, nesciunt molestiae consequatur. Labore, veritatis sit. Inventore, nobis?
+            Ad quisquam tenetur ullam beatae dolor esse, nihil aut consectetur corporis adipisci, deserunt odit reprehenderit rem quae non voluptatem sunt vel illo facilis, hic placeat sed dicta veritatis obcaecati. Unde.
+            Animi possimus labore officia nemo id beatae atque, consequuntur deserunt dolorum eligendi quidem ea tempore, cumque sunt illo. Itaque impedit omnis consequuntur cum repellendus nihil dicta est enim esse fuga!
+            Molestiae quisquam inventore, nesciunt cupiditate porro maiores quod doloremque vel eveniet corporis possimus sint libero sed minima minus aliquid a natus iusto praesentium quam odio quis. Inventore architecto in optio.
+            Accusamus sunt, est sint quo quidem totam in ipsam minima ut accusantium dolorum officia vitae? Omnis nulla mollitia expedita reprehenderit, autem molestias? Laudantium, dolor mollitia. Quaerat qui voluptatum sequi voluptatibus!
+            Dolor accusantium voluptas numquam esse ratione excepturi et, vero obcaecati laborum dicta deserunt vitae reiciendis quae nisi placeat. Libero praesentium tempore quibusdam distinctio dolorum tenetur consectetur! Minus sequi facilis culpa!
+            Nulla, sint unde distinctio quidem fugit aut dolorum eos quam. Laboriosam a exercitationem voluptates beatae, cupiditate quo adipisci consequatur sapiente eligendi tempora sit veritatis doloremque, ipsum labore explicabo dolorem fugit.
+            Dolor dolores corporis at saepe quos, totam, repudiandae, illum doloribus quam quisquam architecto culpa natus? Sit ratione ipsum deleniti pariatur? Rem alias veritatis illo laborum eum necessitatibus neque tenetur labore!
+            Omnis earum aspernatur sapiente placeat eligendi, fuga, atque sint totam incidunt odit nihil! Aliquam in sed reprehenderit ipsam accusamus tempora ratione impedit dolorum consequatur et. Excepturi maxime delectus possimus quae.
+            Eius praesentium odit enim cum. Nihil eligendi exercitationem, illum ratione qui placeat quidem, quos eos facilis sunt repudiandae numquam, vitae earum non culpa itaque cumque. Quas at autem aperiam perspiciatis.</p>       
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis ullam optio impedit, quisquam labore nulla temporibus qui quas officiis quam ducimus porro, voluptates laboriosam adipisci, placeat nihil? Aut, ipsa.</p>
+        </div>
+    </div>
+    <footer>
+        <p style="color: #4CAF50;">Website Footer</p>
+    </footer>
+</body>
+</html>
